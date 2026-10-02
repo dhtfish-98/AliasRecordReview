@@ -1,0 +1,1 @@
+valid.bin, invalid.bin and unsupported.bin (when present) are synthetic declarations; no private acquired evidence or executable sample is included. upstream_writer_v2.bin is synthesized using mac-alias 2.2.3 without native file access.

@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aliasrecordreview"
+version = "1.0.0"
+description = "Bounded offline evidence review: AliasRecordReview"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+dependencies = []
+
+[project.scripts]
+aliasrecordreview = "aliasrecordreview.core:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

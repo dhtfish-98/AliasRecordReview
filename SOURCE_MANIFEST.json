@@ -1,0 +1,74 @@
+{
+  "source_repo": "al45tair/mac_alias",
+  "source_commit": "d0c076b4562541c1509d9874f42880378245d268",
+  "scope": "Finder Alias versions 2/3 fixed layouts and bounded aligned tags, Unicode lengths/encodings, CNID-path/high-resolution-date/home-prefix widths and explicit terminator.",
+  "license": "MIT",
+  "source_files": [
+    {
+      "path": "LICENSE",
+      "bytes": 1100,
+      "lines": 20,
+      "sha256": "b2eede0626e8dc9fa6f108c896345dbb193282156537c2025d8f5daedc4e58fe",
+      "url": "https://raw.githubusercontent.com/al45tair/mac_alias/d0c076b4562541c1509d9874f42880378245d268/LICENSE"
+    },
+    {
+      "path": "README.rst",
+      "bytes": 1501,
+      "lines": 44,
+      "sha256": "fc87fcb12e49a703c7cdb9d31ff1735185e387caa96d7cdbc356de34c2e0efd3",
+      "url": "https://raw.githubusercontent.com/al45tair/mac_alias/d0c076b4562541c1509d9874f42880378245d268/README.rst"
+    },
+    {
+      "path": "src/mac_alias/__init__.py",
+      "bytes": 1075,
+      "lines": 46,
+      "sha256": "f93338db02b6c750464eae3eb780d6768b862d7f86e078b8e260f2c73456164d",
+      "url": "https://raw.githubusercontent.com/al45tair/mac_alias/d0c076b4562541c1509d9874f42880378245d268/src/mac_alias/__init__.py"
+    },
+    {
+      "path": "src/mac_alias/alias.py",
+      "bytes": 24936,
+      "lines": 773,
+      "sha256": "00ed551b104766d6a308ba50c97201f6897189c2912cc4e15a41c4fb36f32080",
+      "url": "https://raw.githubusercontent.com/al45tair/mac_alias/d0c076b4562541c1509d9874f42880378245d268/src/mac_alias/alias.py"
+    },
+    {
+      "path": "src/mac_alias/utils.py",
+      "bytes": 409,
+      "lines": 20,
+      "sha256": "35f52ec21392e1945e0e9a3877dc85adf64ca1a7940f08aca652fd3d94530fa7",
+      "url": "https://raw.githubusercontent.com/al45tair/mac_alias/d0c076b4562541c1509d9874f42880378245d268/src/mac_alias/utils.py"
+    },
+    {
+      "path": "tests/test_alias.py",
+      "bytes": 121,
+      "lines": 7,
+      "sha256": "dd29f154621aa14c00989a14f908f70c51dd1fec124b0264a8c2f13c505beb5b",
+      "url": "https://raw.githubusercontent.com/al45tair/mac_alias/d0c076b4562541c1509d9874f42880378245d268/tests/test_alias.py"
+    }
+  ],
+  "new_runtime_files": [
+    "src/aliasrecordreview/__init__.py",
+    "src/aliasrecordreview/__main__.py",
+    "src/aliasrecordreview/core.py"
+  ],
+  "implementation_files": [
+    {
+      "path": "src/aliasrecordreview/__init__.py",
+      "sha256": "38582950d26e35b221eb5e109dc3283861d1300bcd8b1a0bef233bc8ff76a761",
+      "bytes": 49
+    },
+    {
+      "path": "src/aliasrecordreview/__main__.py",
+      "sha256": "889f673c2145e28095264339dbb3be024859a0bd7242435c479850567be2fd49",
+      "bytes": 49
+    },
+    {
+      "path": "src/aliasrecordreview/core.py",
+      "sha256": "02489bbe39b085dbe07bcaeb8fd46cf0598413384a4e288498772b8ffd822d78",
+      "bytes": 6676
+    }
+  ],
+  "source_review": "Upstream mac_alias also creates aliases through native filesystem APIs and handles recursive aliases/bookmarks. New code reads one alias record only; source writer v2 is an oracle, not an execution dependency.",
+  "review_boundary": "Complete new runtime review; selected upstream format/entry-point review. Unselected upstream platform code is not claimed audited or rewritten."
+}

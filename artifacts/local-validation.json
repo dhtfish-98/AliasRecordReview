@@ -1,0 +1,14 @@
+{
+  "project": "AliasRecordReview",
+  "status": "PASS",
+  "test_count": 15,
+  "wheel": "aliasrecordreview-1.0.0-py3-none-any.whl",
+  "wheel_sha256": "fc2644ca74f84de1b582c60293e3fe84879fe8810b4de1a4ed6a7c37e2bfab62",
+  "verification": "Local supported and malformed input tests, wheel build, separate install, imported package origin and CLI checks",
+  "reproduction": [
+    "python -m pip install .",
+    "python -m unittest discover -s tests -v",
+    "python -m pip wheel --no-deps --wheel-dir artifacts ."
+  ],
+  "limits": "Point-in-time engineering evidence only; CVP qualification and approval remain OPEN"
+}
