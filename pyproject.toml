@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "aliasrecordreview"
-version = "1.0.0"
+version = "1.0.1"
 description = "Bounded offline evidence review: AliasRecordReview"
 requires-python = ">=3.10"
 license = "MIT"

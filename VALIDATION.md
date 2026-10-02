@@ -1,3 +1,15 @@
+# Current re-audit verification — 2026-10-02
+
+Version **1.0.1**: **17 installed unittest cases PASS**. A new wheel was built and installed into a fresh, separate environment. Runtime bytes in source, wheel and installed package matched. Dependency checks and retained license bytes passed.
+
+Wheel: `aliasrecordreview-1.0.1-py3-none-any.whl`. SHA-256: `a358e000cff65bc2d047fbc83b0591e2b38405cdfa62f6ab9c4b3541749fd54e`. Current machine-readable result: `REAUDIT_20261002.json`.
+
+Reproduce with `python -m pip install .`, `python -m unittest discover -s tests -v`, and `python -m pip wheel --no-deps --wheel-dir artifacts .`. Python 3.14/macOS was exercised locally. Exact-commit GitHub checks provide separate Linux evidence; native Windows and effective deployment remain OPEN. Project scope and unsupported input behavior remain defined in README.md.
+
+The records below are historical source/oracle/initial-installation evidence, retained for provenance. Earlier test counts, wheel hashes, versions and installation claims refer to the original release and do not validate this repaired release. Full upstream equivalence and CVP applicant qualification/approval remain OPEN.
+
+---
+
 # Recorded verification
 
 Current engineering result: PASS. 15 tests passed from the built wheel installed into a dedicated verification environment. Tests ran outside the source directory with PYTHONPATH unset; the recorded imported module path is in site-packages.
