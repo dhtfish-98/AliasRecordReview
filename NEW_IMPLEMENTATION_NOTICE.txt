@@ -1,0 +1,9 @@
+New standalone implementation
+
+Author: dhtfish98
+Copyright (c) 2026 dhtfish98
+
+This notice applies only to the new runtime implementation in src/aliasrecordreview/.
+Upstream provenance and retained attribution remain in ORIGIN.md,
+SOURCE_MANIFEST.json, LICENSE and the accompanying THIRD_PARTY files.
+This notice does not replace or change attribution of upstream works.

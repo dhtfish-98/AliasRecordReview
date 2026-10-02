@@ -55,21 +55,23 @@
   "implementation_files": [
     {
       "path": "src/aliasrecordreview/__init__.py",
-      "sha256": "38582950d26e35b221eb5e109dc3283861d1300bcd8b1a0bef233bc8ff76a761",
-      "bytes": 49
+      "sha256": "83195ad26130090e455f71dc6ff3cb32590242cf41b4deafc618714258c7aea8",
+      "bytes": 89
     },
     {
       "path": "src/aliasrecordreview/__main__.py",
-      "sha256": "889f673c2145e28095264339dbb3be024859a0bd7242435c479850567be2fd49",
-      "bytes": 49
+      "sha256": "046da302d5fcaa3abe8fa124b2c84cb85a6d11a4a9312b44cd35618a6712d496",
+      "bytes": 89
     },
     {
       "path": "src/aliasrecordreview/core.py",
-      "sha256": "d2a8e4a22998a2427794ea394f5d66568a4cb231e7b49b36aa87d77b8fc6f092",
-      "bytes": 6992
+      "sha256": "78aaf9f23ca9abd741db683dcdb84b8a0896a2f12d0059cd48de52fc338c06fb",
+      "bytes": 7032
     }
   ],
   "source_review": "Upstream mac_alias also creates aliases through native filesystem APIs and handles recursive aliases/bookmarks. New code reads one alias record only; source writer v2 is an oracle, not an execution dependency.",
   "review_boundary": "Complete new runtime review; selected upstream format/entry-point review. Unselected upstream platform code is not claimed audited or rewritten.",
-  "current_reaudit": "REAUDIT_20261002.json"
+  "current_reaudit": "REAUDIT_20261002.json",
+  "current_verification": "ATTRIBUTION_UPDATE_20261002.json",
+  "implementation_author": "dhtfish98"
 }

@@ -1,5 +1,7 @@
 # AliasRecordReview
 
+New implementation author: **dhtfish98**. Current package version: **1.0.2**.
+
 Highlights malformed alias declarations and network-mount indicators without resolving targets or disclosing paths. Nested aliases and unknown tags remain OPEN.
 
 ## Supported project scope

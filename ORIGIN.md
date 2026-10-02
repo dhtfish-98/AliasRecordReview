@@ -2,7 +2,7 @@
 
 Technical source: [al45tair/mac_alias](https://github.com/al45tair/mac_alias) at fixed commit `d0c076b4562541c1509d9874f42880378245d268`. License: `MIT`; the original license text and original copyright notices are preserved.
 
-This is a Codex-assisted implementation of the explicitly selected standalone scope below. It is not presented as original ownership of the upstream algorithms or as a full rewrite of an upstream platform. No source files have merely been renamed into the runtime package.
+New implementation author: **dhtfish98**. This project implements the explicitly selected standalone scope below. It is not presented as original ownership of the upstream algorithms or as a full rewrite of an upstream platform. No source files have merely been renamed into the runtime package.
 
 Scope: Finder Alias versions 2/3 fixed layouts and bounded aligned tags, Unicode lengths/encodings, CNID-path/high-resolution-date/home-prefix widths and explicit terminator.
 

@@ -1,3 +1,4 @@
+# New implementation author: dhtfish98.
 import argparse
 import hashlib
 import json
