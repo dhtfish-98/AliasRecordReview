@@ -12,3 +12,4 @@ artifacts/isolated_install/
 !/Build/.gitignore
 __pycache__/
 *.py[cod]
+/artifacts/*.whl
