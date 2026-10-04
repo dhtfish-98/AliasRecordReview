@@ -9,7 +9,7 @@ authors = [{ name = "dhtfish98" }]
 description = "Bounded offline evidence review: AliasRecordReview"
 requires-python = ">=3.10"
 license = "MIT"
-license-files = ["项目文档/LICENSE", "NEW_IMPLEMENTATION_NOTICE.txt"]
+license-files = ["项目文档/LICENSE", "项目文档/NEW_IMPLEMENTATION_NOTICE.txt"]
 dependencies = []
 
 [project.scripts]

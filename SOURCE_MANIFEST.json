@@ -71,7 +71,7 @@
   ],
   "source_review": "Upstream mac_alias also creates aliases through native filesystem APIs and handles recursive aliases/bookmarks. New code reads one alias record only; source writer v2 is an oracle, not an execution dependency.",
   "review_boundary": "Complete new runtime review; selected upstream format/entry-point review. Unselected upstream platform code is not claimed audited or rewritten.",
-  "current_reaudit": "REAUDIT_20261002.json",
-  "current_verification": "ATTRIBUTION_UPDATE_20261002.json",
+  "current_reaudit": "项目文档/REAUDIT_20261002.json",
+  "current_verification": "项目文档/ATTRIBUTION_UPDATE_20261002.json",
   "implementation_author": "dhtfish98"
 }
