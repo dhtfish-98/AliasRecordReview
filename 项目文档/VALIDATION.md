@@ -1,3 +1,5 @@
+> Historical validation for v1.0.2. Current release v1.0.3 is validated separately by its exact-commit CI and published artifacts.
+
 # Current package verification — 2026-10-02
 
 Version **1.0.2**: **17 installed unittest cases PASS**. The rebuilt package records `dhtfish98` as the new implementation author. Runtime files matched source and the separately installed wheel; retained third-party notices were checked.
